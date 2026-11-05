@@ -1,0 +1,15 @@
+{
+  "name": "reposentinel-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "reposentinel": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/cli.js && node --check src/core.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
